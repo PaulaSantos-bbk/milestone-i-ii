@@ -40,13 +40,6 @@ main{
   grid-template-rows: 4;
   }
 
-.banner-title{
-  background-image: url("https://media.istockphoto.com/photos/the-universe-within-silhouette-of-a-man-inside-the-universe-physical-picture-id1012505922");
-  background-size: cover;
-  background-position: center;
-  height: 400px;
-}
-
 .about, .contact {
   /*background: #e0dfd2;*/
   background: #e6e5df;
