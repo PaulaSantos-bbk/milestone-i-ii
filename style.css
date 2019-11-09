@@ -86,3 +86,14 @@ p {
   padding: 10px;
 }
 
+@media screen and (max-width: 600px) {
+  .introduction {
+    font-size: calc(6vmin + 5px);
+  }
+}
+
+@media screen and (max-width: 360px) {
+  nav ul {
+    flex-direction: column;
+  }
+}
