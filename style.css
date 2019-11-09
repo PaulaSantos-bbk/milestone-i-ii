@@ -27,7 +27,8 @@ nav ul li a {
 
 nav ul li a:hover {
   color: #fff;
-  /*color: #f89406;*/
+  font-size: 20px;
+  transition: 0.5s font-size linear;
 }
 
 main{
@@ -64,6 +65,33 @@ h1 {
   color: #000;
   font-size: 28px;
   padding: 10px;
+  background: #e6e5df;
+  opacity: 0.80;
+}
+
+.introduction {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bolder;
+  transition: 0.3s font-size linear;
+}
+
+.introduction:hover {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  transition: 1s font-size linear;
+}
+
+img {
+ border: 2px dotted;
+ border-radius: 10px; 
+ width: 300px;
+}
+
+img:hover{
+  transition: 1s width linear;
+  width: 400px;
 }
 
 h2 {
