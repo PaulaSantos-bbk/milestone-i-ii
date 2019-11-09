@@ -3,8 +3,6 @@ body {
    }
 
 nav {
-  /*background: #e6a522;*/
-  /*background: #141E30;*/
   background: #323232;
   padding: 3px;
 }
@@ -39,19 +37,6 @@ main{
   "contact";
   grid-template-rows: 4;
   }
-
-.about, .contact {
-  /*background: #e0dfd2;*/
-  background: #e6e5df;
-}
-
-/*.contact {
-  background: #e6e5df;
-}
-
-.publications {
-
-}*/
 
 h1 {
   color: #000;
@@ -92,20 +77,6 @@ h2 {
   padding: 10px;
   line-height: normal;
   font-size: 24px;
-}
-
-h3, h4 {
-  color: #d43900;
-  padding: 10px;
-  line-height: normal;
-}
-
-h3 {
-  font-size: 20px;
-}
-
-h4 {
-  font-size: 18px;
 }
 
 p {
