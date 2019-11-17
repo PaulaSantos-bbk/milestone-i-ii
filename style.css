@@ -97,3 +97,9 @@ p {
     flex-direction: column;
   }
 }
+
+@media screen and (min-width: 600px) and (max-width:1000px){
+  h1 {
+    color: red;
+  }
+}
