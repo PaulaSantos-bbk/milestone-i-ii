@@ -3,8 +3,6 @@ body {
    }
 
 nav {
-  /*background: #e6a522;*/
-  /*background: #141E30;*/
   background: #323232;
   padding: 3px;
 }
@@ -39,27 +37,6 @@ main{
   "contact";
   grid-template-rows: 4;
   }
-
-.banner-title{
-  /*background: #141E30;*/
-  background-image: url("https://media.istockphoto.com/photos/the-universe-within-silhouette-of-a-man-inside-the-universe-physical-picture-id1012505922");
-  background-size: cover;
-  background-position: center;
-  height: 400px;
-}
-
-.about, .contact {
-  /*background: #e0dfd2;*/
-  background: #e6e5df;
-}
-
-/*.contact {
-  background: #e6e5df;
-}
-
-.publications {
-
-}*/
 
 h1 {
   color: #000;
@@ -102,20 +79,6 @@ h2 {
   font-size: 24px;
 }
 
-h3, h4 {
-  color: #d43900;
-  padding: 10px;
-  line-height: normal;
-}
-
-h3 {
-  font-size: 20px;
-}
-
-h4 {
-  font-size: 18px;
-}
-
 p {
   color: #000000;
   font-size: 18px;
@@ -123,93 +86,20 @@ p {
   padding: 10px;
 }
 
-button {
-  border: 2px solid #f6a21d;
-  background: #f6a21d;
-  padding: 10px;
-  border-radius: 10px;
-  margin: 0px 0px 20px 10px;
+@media screen and (max-width: 600px) {
+  .introduction {
+    font-size: calc(6vmin + 5px);
   }
-
-button a {
-  text-decoration: none;
-  font-family: Helvetica, sans-serif;
-  font-size: 18px;
-  color: #000;
-  font-weight: bold;
-  text-align: center;
 }
 
-button a:hover {
-  color: #fff; 
+@media screen and (max-width: 360px) {
+  nav ul {
+    flex-direction: column;
+  }
 }
 
-form {
-  font-family: Helvetica, sans-serif;
+@media screen and (min-width: 600px) and (max-width:1000px){
+  h1 {
+    color: red;
   }
-
-label {
-  text-align: left;
-  border-radius: 10px;
-  padding: 10px;
-  font-size: 18px;
-  line-height: 1.4;
 }
-
-input {
-  border: 2px solid #d4d0ab;
-  background: #fff;
-  text-align: left;
-  border-radius: 10px;
-  padding: 10px;
-  font-size: 18px;
-  line-height: 1.4;
-  margin-left: 10px;
-}
-
-#submit {
-  border: 1px solid #141E30;
-  color: #f6a21d;
-  background: #323232;
-  font-weight: bold;
-  text-align: left;
-  border-radius: 10px;
-  padding: 10px;
-  font-size: 18px;
-  line-height: 1.4;
-  margin: 20px 20px 20px 10px;
-}
-
-#submit a {
-  text-decoration: none;
-}
-
-#submit a:hover {
-  color: #fff; 
-}
-
-  footer {
-    /*background: #e6a522;*/
-    background: #323232;
-    padding: 10px;
-  }
-
-  footer ul {
-    display: flex;
-    list-style-type: none;
-  }
-
-  footer ul li {
-    padding-right: 40px;
-  }
-  
-  footer ul li a {
-    text-decoration: none;
-    font-size: 16px;
-    color: #f6a21d;
-  }
-  
-  footer ul li a:hover {
-    color: #fff;
-    /*color: #f89406;*/
-  }
